@@ -10,5 +10,8 @@ function getgenero(a) {
   }
   return resu;
 }
+function getedad(a) {
+  return "de "+ a + " años";
+}
 
-export {getnombre,getgenero};
+export {getnombre,getgenero,getedad};
