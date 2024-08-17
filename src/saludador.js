@@ -24,6 +24,7 @@ function getnombre(a) {
   return a;
 }
 function getgenero(a) {
+  let resu
   if (a == "masculino"){
     resu = "señor"
   }
